@@ -41,7 +41,7 @@ class FloatingNavbar extends StatefulWidget {
     this.width = double.infinity,
     this.elevation = 0.0,
   })  : assert(items.length > 1),
-        assert(items.length <= 5),
+        assert(items.length <= 6),
         assert(currentIndex <= items.length),
         assert(width > 50),
         this.itemBuilder = itemBuilder ??
